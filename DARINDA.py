@@ -119,7 +119,7 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     await update.message.reply_text(response)
 
-BOT_EXPIRY_DATE = "2025-05-12 00:00:00"
+BOT_EXPIRY_DATE = "2029-05-12 00:00:00"
 
 async def redeem(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_id = str(update.message.from_user.id)
